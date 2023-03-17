@@ -16,12 +16,21 @@ function Product({ product }) {
 			message: "Add Successfully",
 		});
 		if (e.target.innerText !== "Add To Cart") {
-			return alert("Product Must Be Out Of Stock");
+			showNotification({
+				type: "Error",
+				title: "product",
+				message: "Out Of Stock",
+			});
 		}
 
 		dispatch(addOneCart(e.target.title));
+		showNotification({
+			type: "success",
+			title: "product",
+			message: "Add Successfully",
+		});
 
-		return alert("Add To Cart");
+		// return alert("Add To Cart");
 	};
 	//hr@webskitters.com ===>
 
