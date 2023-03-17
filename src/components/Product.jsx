@@ -10,11 +10,6 @@ function Product({ product }) {
 	const { showNotification } = useNotification();
 	const dispatch = useDispatch();
 	const handelClick = (e) => {
-		showNotification({
-			type: "success",
-			title: "product",
-			message: "Add Successfully",
-		});
 		if (e.target.innerText !== "Add To Cart") {
 			showNotification({
 				type: "Error",
