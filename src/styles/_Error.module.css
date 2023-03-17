@@ -1,0 +1,61 @@
+.error_container {
+	width: 100dvw;
+	height: 100dvh;
+	letter-spacing: 2px;
+	word-spacing: 2px;
+
+	box-sizing: border-box;
+
+	background-color: rgb(82, 130, 227);
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.error_heading {
+	font-weight: 900;
+
+	text-transform: capitalize;
+
+	color: rgb(47, 46, 46);
+	font-size: 150px;
+
+	opacity: 0.4;
+}
+
+.error_sub_heading {
+	font-weight: 500;
+	font-size: 30px;
+	opacity: 0.8;
+
+	color: whitesmoke;
+}
+.error_sub_heading > span {
+	background-color: rgb(102, 92, 92);
+	color: wheat;
+
+	border: none;
+	border-radius: 5px;
+	opacity: 0.5;
+}
+
+.error_back_btn {
+	background-color: red;
+	margin-top: 20px;
+	padding: 10px;
+
+	font-weight: 600;
+
+	border-radius: 5px;
+
+	box-shadow: 5px 5px 5px rgb(171, 205, 48);
+	cursor: pointer;
+
+	transition-property: hight width;
+	transition-duration: 0.3s;
+	transition-timing-function: ease-in-out;
+}
+.error_back_btn:hover {
+	transform: scale(1.1, 1.1);
+}
