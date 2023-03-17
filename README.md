@@ -22,6 +22,12 @@ The `pages/api` directory is mapped to `/api/*`. Files in this directory are tre
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Feature
+
+[Error Handel]()
+[NotiFication Panel]()
+[Redux Toolkit]()
+
 ## Learn More
 
 - Browse the catalog on a product listing page
